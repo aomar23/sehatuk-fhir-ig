@@ -1,0 +1,191 @@
+[
+  {
+    "id": "fhir.RoadxCore",
+    "type": "ImplementationGuide",
+    "url": "http://roadxcore.com/fhir/v1/ImplementationGuide/fhir.RoadxCore",
+    "version": "1.0.0",
+    "name": "RoadxCoreIG"
+  },
+  {
+    "id": "bundle",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/bundle",
+    "version": "1.0.0",
+    "name": "RoadxCoreBundle"
+  },
+  {
+    "id": "device-request",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/device-request",
+    "version": "1.0.0",
+    "name": "RoadxCoreDeviceRequest"
+  },
+  {
+    "id": "download-parameters",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/download-parameters",
+    "version": "1.0.0",
+    "name": "RoadxCoreDownloadParameters"
+  },
+  {
+    "id": "encounter",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/encounter",
+    "version": "1.0.0",
+    "name": "RoadxCoreEncounter"
+  },
+  {
+    "id": "extension-ExpiryDate",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-ExpiryDate",
+    "version": "1.0.0",
+    "name": "ExpiryDate"
+  },
+  {
+    "id": "extension-SerialNumber",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-SerialNumber",
+    "version": "1.0.0",
+    "name": "SerialNumber"
+  },
+  {
+    "id": "extension-error-expression",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-error-expression",
+    "version": "1.0.0",
+    "name": "ErrorExpression"
+  },
+  {
+    "id": "extension-identifier-country",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-identifier-country",
+    "version": "1.0.0",
+    "name": "PatientIdentifierCountry"
+  },
+  {
+    "id": "extension-patient-religion",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-patient-religion",
+    "version": "1.0.0",
+    "name": "PatientReligionExtension"
+  },
+  {
+    "id": "extension-prescription-dispense-status",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-dispense-status",
+    "version": "1.0.0",
+    "name": "PrescriptionDispenseStatus"
+  },
+  {
+    "id": "extension-prescription-order-number",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-order-number",
+    "version": "1.0.0",
+    "name": "PrescriptionOrderNumber"
+  },
+  {
+    "id": "extension-prescription-type",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-type",
+    "version": "1.0.0",
+    "name": "PrescriptionType"
+  },
+  {
+    "id": "extension-roadx-administrative-gender",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender",
+    "version": "1.0.0",
+    "name": "RoadxAdministrativeGenderExtension"
+  },
+  {
+    "id": "location",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/location",
+    "version": "1.0.0",
+    "name": "RoadxCoreLocation"
+  },
+  {
+    "id": "medication-dispense",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/medication-dispense",
+    "version": "1.0.0",
+    "name": "RoadxCoreMedicationDispense"
+  },
+  {
+    "id": "medication-request",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/medication-request",
+    "version": "1.0.0",
+    "name": "RoadxCoreMedicationRequest"
+  },
+  {
+    "id": "message-header",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/message-header",
+    "version": "1.0.0",
+    "name": "RoadxCoreMessageHeader"
+  },
+  {
+    "id": "organization",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/organization",
+    "version": "1.0.0",
+    "name": "RoadxCoreOrganization"
+  },
+  {
+    "id": "patient",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/patient",
+    "version": "1.0.0",
+    "name": "RoadxCorePatient"
+  },
+  {
+    "id": "practitioner",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/practitioner",
+    "version": "1.0.0",
+    "name": "RoadxCorePractitioner"
+  },
+  {
+    "id": "practitioner-role",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/practitioner-role",
+    "version": "1.0.0",
+    "name": "RoadxCorePractitionerRole"
+  },
+  {
+    "id": "prescription-diagnosis",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/prescription-diagnosis",
+    "version": "1.0.0",
+    "name": "RoadxCoreDiagnosis"
+  },
+  {
+    "id": "provider-organization",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/provider-organization",
+    "version": "1.0.0",
+    "name": "RoadxCoreProviderOrganization"
+  },
+  {
+    "id": "service-request",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/service-request",
+    "version": "1.0.0",
+    "name": "RoadxCoreServiceRequest"
+  },
+  {
+    "id": "task",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/task",
+    "version": "1.0.0",
+    "name": "RoadxCoreTask"
+  },
+  {
+    "id": "vision-prescription",
+    "type": "StructureDefinition",
+    "url": "http://roadxcore.com/fhir/v1/StructureDefinition/vision-prescription",
+    "version": "1.0.0",
+    "name": "RoadxCoreVisionPrescription"
+  }
+]
