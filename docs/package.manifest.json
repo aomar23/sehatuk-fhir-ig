@@ -1,6 +1,8 @@
 {
   "version": "1.0.0",
-  "fhirVersion": "[4.0.1]",
-  "date": "20220119115533",
-  "name": "fhir.RoadxCore"
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "date": "20221119092114",
+  "name": "fhir.SehatukCore"
 }

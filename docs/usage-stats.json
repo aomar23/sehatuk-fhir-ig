@@ -1,10 +1,29 @@
 {
-  "package": "fhir.RoadxCore",
+  "package": "fhir.SehatukCore",
   "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-ExpiryDate",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender",
+      "title": "Sehatuk Administrative Gender Extension",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-ExpiryDate",
       "title": "Drug Expiry Extension",
       "types": [
         "dateTime",
@@ -12,7 +31,7 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-SerialNumber",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-SerialNumber",
       "title": "Drug serial number",
       "types": [
         "string",
@@ -20,7 +39,31 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-error-expression",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-bundle-checksum",
+      "title": "Original bundle checksum",
+      "types": [
+        "string",
+        "string"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-bundle-id",
+      "title": "Original bundle id",
+      "types": [
+        "string",
+        "string"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-bundle-timestamp",
+      "title": "Original bundle timestamp",
+      "types": [
+        "dateTime",
+        "dateTime"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-error-expression",
       "title": "Error expression Extension",
       "types": [
         "string",
@@ -28,7 +71,7 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-identifier-country",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-identifier-country",
       "title": "Patient Identifier Country Extension",
       "types": [
         "CodeableConcept",
@@ -47,7 +90,23 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-patient-religion",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-original-request",
+      "title": "Original Request Extension",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-original-response",
+      "title": "Original Response Extension",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-patient-religion",
       "title": "Patient Religion Extension",
       "types": [
         "CodeableConcept",
@@ -66,7 +125,7 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-dispense-status",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-dispense-status",
       "title": "Extension for specifying prescription dispense status",
       "types": [
         "Coding",
@@ -81,7 +140,7 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-order-number",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-order-number",
       "title": "Prescription Order Number Extension",
       "types": [
         "Identifier",
@@ -97,27 +156,8 @@
       ]
     },
     {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-type",
+      "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-type",
       "title": "Extension for specifying prescription type",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
-      "url": "http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender",
-      "title": "Roadx Administrative Gender Extension",
       "types": [
         "CodeableConcept",
         "CodeableConcept",
@@ -138,98 +178,98 @@
   "profiles": {
     "Bundle": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/bundle",
-        "title": "RoadxCore  Bundle "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/bundle",
+        "title": "SehatukCore  Bundle "
       }
     ],
     "DeviceRequest": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/device-request",
-        "title": "RoadxCore Device Request"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/device-request",
+        "title": "SehatukCore Device Request"
       }
     ],
     "Parameters": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/download-parameters",
-        "title": "RoadxCoreDownloadParameters"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/download-parameters",
+        "title": "SehatukCoreDownloadParameters"
       }
     ],
     "Encounter": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/encounter",
-        "title": "RoadxCore  Encounter "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/encounter",
+        "title": "SehatukCore  Encounter "
       }
     ],
     "Location": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/location",
-        "title": "RoadxCore  Location "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/location",
+        "title": "SehatukCore  Location "
       }
     ],
     "MedicationDispense": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/medication-dispense",
-        "title": "RoadxCoreMedicationDispense"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/medication-dispense",
+        "title": "SehatukCoreMedicationDispense"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/medication-request",
-        "title": "RoadxCore Medication Request"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/medication-request",
+        "title": "SehatukCore Medication Request"
       }
     ],
     "MessageHeader": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/message-header",
-        "title": "RoadxCore  Message Header "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/message-header",
+        "title": "SehatukCore  Message Header "
       }
     ],
     "Organization": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/provider-organization",
-        "title": "RoadxCore  Provider Organization"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/provider-organization",
+        "title": "SehatukCore  Provider Organization"
       }
     ],
     "Patient": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/patient",
-        "title": "RoadxCore  Patient "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/patient",
+        "title": "SehatukCore  Patient "
       }
     ],
     "Practitioner": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/practitioner",
-        "title": "RoadxCore  Practitioner "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/practitioner",
+        "title": "SehatukCore  Practitioner "
       }
     ],
     "PractitionerRole": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/practitioner-role",
-        "title": "RoadxCore  Practitioner Role "
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/practitioner-role",
+        "title": "SehatukCore  Practitioner Role "
       }
     ],
     "Condition": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/prescription-diagnosis",
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/prescription-diagnosis",
         "title": "Prescription Diagnosis"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/service-request",
-        "title": "RoadxCore Service Request"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/service-request",
+        "title": "SehatukCore Service Request"
       }
     ],
     "Task": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/task",
-        "title": "RoadxCore  Task"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/task",
+        "title": "SehatukCore  Task"
       }
     ],
     "VisionPrescription": [
       {
-        "url": "http://roadxcore.com/fhir/v1/StructureDefinition/vision-prescription",
-        "title": "RoadxCore  VisionPrescription"
+        "url": "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/vision-prescription",
+        "title": "SehatukCore  VisionPrescription"
       }
     ]
   },
@@ -273,33 +313,46 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-error-expression": [
-      "Task.output.value[x]"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-identifier-country": [
-      "Patient.identifier"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-patient-religion": [
-      "Patient"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-dispense-status": [
-      "MedicationDispense"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-order-number": [
-      "MedicationDispense.authorizingPrescription"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-prescription-type": [
-      "MedicationRequest"
-    ],
-    "http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender": [
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender": [
       "Patient.gender",
       "Practitioner.gender"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-error-expression": [
+      "Task.output.value[x]"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-identifier-country": [
+      "Patient.identifier"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-original-request": [
+      "MessageHeader"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-original-response": [
+      "MessageHeader"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-patient-religion": [
+      "Patient"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-dispense-status": [
+      "MedicationDispense"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-order-number": [
+      "MedicationDispense.authorizingPrescription"
+    ],
+    "https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-prescription-type": [
+      "MedicationRequest"
     ]
   }
 }

@@ -14,7 +14,7 @@
     <sch:rule context="f:Patient">
       <sch:assert test="count(f:id) &gt;= 1">id: minimum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:meta) &gt;= 1">meta: minimum cardinality of 'meta' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-patient-religion']) &lt;= 1">extension with URL = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-patient-religion': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-patient-religion']) &lt;= 1">extension with URL = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-patient-religion': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:active) &gt;= 1">active: minimum cardinality of 'active' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
@@ -22,16 +22,6 @@
       <sch:assert test="count(f:gender) &gt;= 1">gender: minimum cardinality of 'gender' is 1</sch:assert>
       <sch:assert test="count(f:birthDate) &gt;= 1">birthDate: minimum cardinality of 'birthDate' is 1</sch:assert>
       <sch:assert test="count(f:address) &lt;= 1">address: maximum cardinality of 'address' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Patient</sch:title>
-    <sch:rule context="f:Patient">
-      <sch:assert test="not(parent::f:contained and f:contained)">If the resource is contained in another resource, it SHALL NOT contain nested Resources (inherited)</sch:assert>
-      <sch:assert test="not(exists(for $id in f:contained/*/f:id/@value return $contained[not(parent::*/descendant::f:reference/@value=concat('#', $contained/*/id/@value) or descendant::f:reference[@value='#'])]))">If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource (inherited)</sch:assert>
-      <sch:assert test="not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))">If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated (inherited)</sch:assert>
-      <sch:assert test="not(exists(f:contained/*/f:meta/f:security))">If a resource is contained in another resource, it SHALL NOT have a security label (inherited)</sch:assert>
-      <sch:assert test="exists(f:text/h:div)">A resource should have narrative for robust management (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -131,7 +121,7 @@
     <sch:title>f:Patient/f:identifier</sch:title>
     <sch:rule context="f:Patient/f:identifier">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-identifier-country']) &lt;= 1">extension with URL = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-identifier-country': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-identifier-country']) &lt;= 1">extension with URL = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/extension-identifier-country': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:use) &lt;= 1">use: maximum cardinality of 'use' is 1</sch:assert>
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
       <sch:assert test="count(f:type) &lt;= 1">type: maximum cardinality of 'type' is 1</sch:assert>
@@ -276,8 +266,8 @@
     <sch:title>f:Patient/f:gender</sch:title>
     <sch:rule context="f:Patient/f:gender">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender']) &gt;= 1">extension with URL = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender']) &lt;= 1">extension with URL = 'http://roadxcore.com/fhir/v1/StructureDefinition/extension-roadx-administrative-gender': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender']) &gt;= 1">extension with URL = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender']) &lt;= 1">extension with URL = 'https://www.sehatuk.ae/uae-fhir/r4/StructureDefinition/Extension-Sehatuk-administrative-gender': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value) &lt;= 1">value: maximum cardinality of 'value' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

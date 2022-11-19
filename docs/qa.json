@@ -1,12 +1,12 @@
 {
-  "url": "http://roadxcore.com/fhir/v1/ImplementationGuide/fhir.RoadxCore",
-  "name": "RoadxCoreIG",
-  "package-id": "fhir.RoadxCore",
+  "url": "https://www.sehatuk.ae/uae-fhir/r4/ImplementationGuide/fhir.SehatukCore",
+  "name": "SehatukCoreIG",
+  "package-id": "fhir.SehatukCore",
   "ig-ver": "1.0.0",
-  "date": "Wed, 19 Jan, 2022 11:55:47 +0400",
-  "errs": 2,
-  "warnings": 106,
-  "hints": 3,
+  "date": "Sat, 19 Nov, 2022 09:21:48 +0400",
+  "errs": 1,
+  "warnings": 115,
+  "hints": 4,
   "version": "4.0.1",
-  "tool": "4.6.0 (3)"
+  "tool": "5.0.0-ballot (3)"
 }
