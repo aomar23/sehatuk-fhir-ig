@@ -18,7 +18,7 @@
   <name value="PatientReligionExtension"/>
   <title value="Patient Religion Extension"/>
   <status value="active"/>
-  <date value="2022-11-19T09:21:48+04:00"/>
+  <date value="2022-11-19T09:53:21+04:00"/>
   <description value="Patient religion as per the SehatukCore adopted list of religions"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

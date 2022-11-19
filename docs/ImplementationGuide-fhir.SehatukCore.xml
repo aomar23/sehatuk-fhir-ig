@@ -11,7 +11,7 @@
   <name value="SehatukCoreIG"/>
   <title value="HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 "/>
   <status value="active"/>
-  <date value="2022-11-19T09:21:48+04:00"/>
+  <date value="2022-11-19T09:53:21+04:00"/>
   <description value="HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 "/>
   <packageId value="fhir.SehatukCore"/>
   <license value="CC0-1.0"/>
@@ -789,6 +789,54 @@
         </extension>
         <nameUrl value="spec.html"/>
         <title value="Spec"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="overview.html"/>
+        </extension>
+        <nameUrl value="overview.html"/>
+        <title value="Overview"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="guidance.html"/>
+        </extension>
+        <nameUrl value="guidance.html"/>
+        <title value="Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="usecases.html"/>
+        </extension>
+        <nameUrl value="usecases.html"/>
+        <title value="Use Cases"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="examples.html"/>
+        </extension>
+        <nameUrl value="examples.html"/>
+        <title value="Examples"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="messaging.html"/>
+        </extension>
+        <nameUrl value="messaging.html"/>
+        <title value="Messaging"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="capabilitystatement.html"/>
+        </extension>
+        <nameUrl value="capabilitystatement.html"/>
+        <title value="Capability Statement"/>
         <generation value="markdown"/>
       </page>
     </page>

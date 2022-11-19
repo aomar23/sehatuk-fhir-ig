@@ -10,7 +10,7 @@
   "name": "SehatukCoreIG",
   "title": "HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 ",
   "status": "active",
-  "date": "2022-11-19T09:21:48+04:00",
+  "date": "2022-11-19T09:53:21+04:00",
   "description": "HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 ",
   "packageId": "fhir.SehatukCore",
   "license": "CC0-1.0",
@@ -1152,6 +1152,72 @@
           ],
           "nameUrl": "spec.html",
           "title": "Spec",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "overview.html"
+            }
+          ],
+          "nameUrl": "overview.html",
+          "title": "Overview",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "guidance.html"
+            }
+          ],
+          "nameUrl": "guidance.html",
+          "title": "Guidance",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "usecases.html"
+            }
+          ],
+          "nameUrl": "usecases.html",
+          "title": "Use Cases",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "examples.html"
+            }
+          ],
+          "nameUrl": "examples.html",
+          "title": "Examples",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "messaging.html"
+            }
+          ],
+          "nameUrl": "messaging.html",
+          "title": "Messaging",
+          "generation": "markdown"
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "capabilitystatement.html"
+            }
+          ],
+          "nameUrl": "capabilitystatement.html",
+          "title": "Capability Statement",
           "generation": "markdown"
         }
       ]

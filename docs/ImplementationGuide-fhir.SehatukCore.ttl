@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SehatukCoreIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 "];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-19T09:21:48+04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-19T09:53:21+04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "HL7 FHIR Implementation Guide: SehatukCore IG Release 1.0.0 "];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir.SehatukCore"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
@@ -1105,6 +1105,66 @@
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Spec" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "overview.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "overview.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Overview" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 6;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "guidance.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "guidance.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Guidance" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 7;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "usecases.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 8;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "examples.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "examples.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Examples" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 9;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "messaging.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "messaging.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Messaging" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 10;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "capabilitystatement.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "capabilitystatement.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Capability Statement" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

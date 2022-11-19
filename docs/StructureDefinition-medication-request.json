@@ -20,7 +20,7 @@
   "name": "SehatukCoreMedicationRequest",
   "title": "SehatukCore Medication Request",
   "status": "active",
-  "date": "2022-11-19T09:21:48+04:00",
+  "date": "2022-11-19T09:53:21+04:00",
   "description": "SehatukCore constraints on MedicationRequest resource mandating support for elements relevant to the prescriptions being requested on a prior authorization request",
   "fhirVersion": "4.0.1",
   "mapping": [

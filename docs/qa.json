@@ -3,7 +3,7 @@
   "name": "SehatukCoreIG",
   "package-id": "fhir.SehatukCore",
   "ig-ver": "1.0.0",
-  "date": "Sat, 19 Nov, 2022 09:21:48 +0400",
+  "date": "Sat, 19 Nov, 2022 09:53:21 +0400",
   "errs": 1,
   "warnings": 115,
   "hints": 4,

@@ -15,7 +15,7 @@
   "version": "1.0.0",
   "name": "SehatukCoreDownloadParameters",
   "status": "active",
-  "date": "2022-11-19T09:21:48+04:00",
+  "date": "2022-11-19T09:53:21+04:00",
   "description": "Parameters profile for download prescription",
   "fhirVersion": "4.0.1",
   "mapping": [

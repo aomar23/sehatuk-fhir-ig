@@ -26,7 +26,7 @@
   <version value="1.0.0"/>
   <name value="SehatukCoreDownloadParameters"/>
   <status value="active"/>
-  <date value="2022-11-19T09:21:48+04:00"/>
+  <date value="2022-11-19T09:53:21+04:00"/>
   <description value="Parameters profile for download prescription"/>
   <fhirVersion value="4.0.1"/>
   <mapping>

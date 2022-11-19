@@ -21,7 +21,7 @@
   fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "SehatukCoreDownloadParameters"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-11-19T09:21:48+04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-11-19T09:53:21+04:00"^^xsd:dateTime];
   fhir:StructureDefinition.description [ fhir:value "Parameters profile for download prescription"];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
